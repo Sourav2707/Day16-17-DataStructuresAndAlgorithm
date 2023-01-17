@@ -1,7 +1,6 @@
-package com.bridgelabs.day16_17_algorithm_and_ds;
+package com.bridgelabs.day16_17_Permutation;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Permutation {
