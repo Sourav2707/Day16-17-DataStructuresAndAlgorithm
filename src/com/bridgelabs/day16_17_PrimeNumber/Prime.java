@@ -1,6 +1,10 @@
 package com.bridgelabs.day16_17_PrimeNumber;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Prime {
+    public ArrayList<Integer> primeCheckList = new ArrayList<>();
     boolean match;
     public void isPrime(int n) {
         for(int i = 2; i < n; i++) { //skipped 1, 2 beacuse they are not prime
@@ -13,6 +17,7 @@ public class Prime {
                     match = true;
             }
             if(match == true) {
+                primeCheckList.add(i);
                 System.out.print(i + " ");
             }
         }
